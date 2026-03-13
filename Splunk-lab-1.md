@@ -1,14 +1,13 @@
-## Objective
-Practice basic Splunk search queries and understand how logs are categorized.
+## Splunk Queries Used
 
-## Query Used
-index=_internal | stats count by sourcetype
+Search all internal logs:
 
-## What I Learned
-- How to run searches in Splunk
-- How to group logs by sourcetype
-- How to analyze log data using SPL
+index=_internal
 
-## Tools
-- Splunk
-- Log analysis
+Top sources:
+
+index=_internal | top source
+
+UI access logs:
+
+sourcetype=splunkd_ui_access
