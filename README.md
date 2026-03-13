@@ -30,6 +30,11 @@ See the lab documentation:
 - Basic incident investigation
 - Log source identification
 - Security monitoring fundamentals
+- 
+- ## Key Concepts Practiced
+- Splunk SPL queries
+- Security monitoring fundamentals
+- Basic threat investigation
 
 ## Goal
 
