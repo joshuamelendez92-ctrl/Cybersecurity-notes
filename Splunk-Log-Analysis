@@ -1,5 +1,3 @@
-# Splunk Log Analysis
-
 This lab demonstrates basic log analysis using Splunk.
 
 ## Query Used
@@ -21,3 +19,4 @@ Observations:
 ## Screenshot
 
 ![Splunk UI Access Logs](splunk-ui-access-log-events.png)
+
