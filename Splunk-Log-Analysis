@@ -1,1 +1,8 @@
+# Splunk Log Analysis
+
+## Splunk UI Access Logs
+
+This screenshot shows Splunk analyzing UI access logs from the internal index.
+
+![Splunk Logs](splunk-ui-access-log-events.png)
 
