@@ -1,6 +1,6 @@
 This lab demonstrates basic log analysis using Splunk.
 
-## Query Used
+##  Splunk Query Used
 
 index=_internal | top source
 
@@ -32,3 +32,4 @@ Most of the events originate from the local machine (127.0.0.1), which indicates
 The source `splunkd_ui_access.log` records interactions with the Splunk web interface such as searches and requests to Splunk services.
 
 This type of log analysis helps security analysts monitor system activity and identify unusual behavio
+
