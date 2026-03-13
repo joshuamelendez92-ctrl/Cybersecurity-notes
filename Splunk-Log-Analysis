@@ -1,8 +1,23 @@
 # Splunk Log Analysis
 
-## Splunk UI Access Logs
+This lab demonstrates basic log analysis using Splunk.
 
-This screenshot shows Splunk analyzing UI access logs from the internal index.
+## Query Used
 
-![Splunk Logs](splunk-ui-access-log-events.png)
+index=_internal | top source
 
+This query shows the most common log sources in the Splunk internal index.
+
+## Findings
+
+The logs show activity from the Splunk web interface.
+
+Observations:
+
+- Activity originates from localhost (127.0.0.1)
+- The source log is `splunkd_ui_access.log`
+- Events show HTTP GET requests to Splunk search endpoints
+
+## Screenshot
+
+![Splunk UI Access Logs](splunk-ui-access-log-events.png)
